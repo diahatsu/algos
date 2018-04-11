@@ -67,3 +67,15 @@ int main()
 
     return 0;
 }
+
+int linearSearch(auto data, auto key) //search function
+{
+  for(int i=0; i<data.size(); i++) //search each piece of data start to finish
+  {
+    if(data[i] == key) //if data is what we want return position
+    {
+      return i;
+    }
+  }
+  return -1; //otherwise return -1 for not found
+}
