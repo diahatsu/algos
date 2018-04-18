@@ -68,7 +68,7 @@ void selectionSort(auto& data)
     if(smallest_position != i) //swap lowest value with starting position
     {
       auto swap_variable = data[i];
-      data[i] = data[smallest_poistion];
+      data[i] = data[smallest_position];
       data[smallest_position] = swap_variable;
     }
 
